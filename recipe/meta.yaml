@@ -20,19 +20,19 @@ requirements:
   host:
     - pbr
     - pip
-    - python
+    - python >3
     - setuptools
   run:
     - keystoneauth1
     - oslo.i18n
     - oslo.utils
     - pbr
-    - prettytable <0.8,>=0.7.1
-    - python
+    - prettytable
+    - python >3
     - requests
     - setuptools
     - six
-    - warlock <2,>=1.2.0
+    - warlock
     - wrapt
     - pyopenssl
 
