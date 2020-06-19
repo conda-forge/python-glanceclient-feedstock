@@ -42,8 +42,8 @@ test:
 
 about:
   home: https://docs.openstack.org/python-glanceclient/latest/
-  license: Apache Software
-  license_family: APACHE-2.0
+  license: Apache-2.0
+  license_family: APACHE
   license_file: LICENSE
   summary: OpenStack Image API Client Library
   doc_url: https://docs.openstack.org/python-glanceclient/latest/
