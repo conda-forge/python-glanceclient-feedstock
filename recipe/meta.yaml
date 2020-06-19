@@ -1,5 +1,5 @@
 {% set name = "python-glanceclient" %}
-{% set version = "3.1.1" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c5f123685c01564aa84186b37fad9264b0ae039097f372d8e5bee377b7c843bc
+  sha256: 0181ee9384e5fee3bdd733c3d5d88e242dff5f285dda25176d1b71dbc1b8fb2c
 
 build:
   number: 0
@@ -42,7 +42,7 @@ test:
 
 about:
   home: https://docs.openstack.org/python-glanceclient/latest/
-  license: Apache Software
+  license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
   summary: OpenStack Image API Client Library
