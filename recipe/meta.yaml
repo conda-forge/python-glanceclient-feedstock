@@ -31,7 +31,6 @@ requirements:
     - python >3
     - requests
     - setuptools
-    - six
     - warlock
     - wrapt
     - pyopenssl
