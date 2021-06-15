@@ -1,5 +1,5 @@
 {% set name = "python-glanceclient" %}
-{% set version = "3.3.0" %}
+{% set version = "3.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8dfb31dad2d08885e2354bba6cec29bf271f65feffb925658b312d5af0fc2af5
+  sha256: 2bf28ef90afedbc7f9ea1541a43639bb720ca146e856abb05f32166a83b5563d
 
 build:
   number: 0
