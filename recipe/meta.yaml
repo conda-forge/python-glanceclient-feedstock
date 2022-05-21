@@ -1,5 +1,5 @@
 {% set name = "python-glanceclient" %}
-{% set version = "3.6.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 822d4862d5892f6a65b68293472e60b074d1c07969d061e804c6e1d543f983da
+  sha256: 6b7b452e648ab9a29b050cb7d84914eec3c8110b4de60683aa8193d378246bec
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
   host:
     - pbr
     - pip
-    - python >3
+    - python >=3.8
     - setuptools
   run:
     - keystoneauth1
@@ -28,7 +28,7 @@ requirements:
     - oslo.utils
     - pbr
     - prettytable
-    - python >3
+    - python >=3.8
     - requests
     - setuptools
     - warlock
