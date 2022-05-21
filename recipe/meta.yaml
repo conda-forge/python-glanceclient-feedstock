@@ -20,7 +20,7 @@ requirements:
   host:
     - pbr
     - pip
-    - python >3
+    - python >=3.8
     - setuptools
   run:
     - keystoneauth1
@@ -28,7 +28,7 @@ requirements:
     - oslo.utils
     - pbr
     - prettytable
-    - python >3
+    - python >=3.8
     - requests
     - setuptools
     - warlock
