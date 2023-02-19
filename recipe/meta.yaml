@@ -30,7 +30,6 @@ requirements:
     - prettytable
     - python >=3.8
     - requests
-    - setuptools
     - warlock
     - wrapt
     - pyopenssl
